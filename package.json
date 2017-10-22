@@ -9,9 +9,6 @@
       "brfs"
     ]
   },
-  "peerDependencies": {
-    "mapbox-gl": "^0.41.0"
-  },
   "scripts": {
     "prepublish": "npm run build",
     "start": "NODE_ENV=development budo example/index.js:example/bundle.js --live",
